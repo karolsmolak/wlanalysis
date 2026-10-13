@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Polityka prywatności – Plan lekcji</title>
+    <style>
+        :root {
+            --tlo: #fbfcff;
+            --tekst: #1a1c1e;
+            --tekst-drugi: #43474e;
+            --akcent: #1b5fa8;
+            --linia: #dfe2eb;
+            --do-uzupelnienia: #fff3bf;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --tlo: #111418;
+                --tekst: #e2e2e6;
+                --tekst-drugi: #c3c6cf;
+                --akcent: #a7c8ff;
+                --linia: #43474e;
+                --do-uzupelnienia: #5c4a00;
+            }
+        }
+        body {
+            margin: 0;
+            background: var(--tlo);
+            color: var(--tekst);
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+        }
+        main {
+            max-width: 46rem;
+            margin: 0 auto;
+            padding: 2rem 1rem 4rem;
+        }
+        h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 .25rem; }
+        h2 { font-size: 1.2rem; margin: 2.2rem 0 .5rem; color: var(--akcent); }
+        p, li { margin: .5rem 0; }
+        ul { padding-left: 1.3rem; }
+        a { color: var(--akcent); }
+        .data { color: var(--tekst-drugi); margin: 0 0 1.5rem; }
+        .skrot {
+            border: 1px solid var(--linia);
+            border-radius: .75rem;
+            padding: .75rem 1rem;
+            margin: 1.5rem 0;
+        }
+        .skrot p { margin: .25rem 0; }
+        /* Pola, które trzeba uzupełnić przed publikacją. */
+        mark { background: var(--do-uzupelnienia); color: inherit; padding: 0 .25rem; border-radius: .25rem; }
+        table { border-collapse: collapse; width: 100%; margin: .75rem 0; }
+        th, td { text-align: left; vertical-align: top; padding: .5rem .75rem .5rem 0; border-bottom: 1px solid var(--linia); }
+        th { font-weight: 600; }
+        footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--linia); color: var(--tekst-drugi); font-size: .9rem; }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Polityka prywatności aplikacji „Plan lekcji”</h1>
+    <p class="data">Obowiązuje od: 13 października 2026 r.</p>
+
+    <div class="skrot">
+        <p><strong>W skrócie:</strong> aplikacja nie zbiera, nie wysyła i nie udostępnia nikomu danych o Tobie.
+            Nie ma kont, reklam ani narzędzi analitycznych. Jedyne połączenie z internetem służy do pobrania
+            planu lekcji i listy dyżurów, a wszystko, co aplikacja zapisuje, zostaje na Twoim urządzeniu.</p>
+    </div>
+
+    <h2>1. Czego dotyczy ten dokument</h2>
+    <p>Polityka dotyczy aplikacji „Plan lekcji” na system Android (identyfikator pakietu
+        <code>com.karolsmolak.planlekcji</code>). Aplikacja wyświetla plan lekcji szkoły w trybie nauczyciela,
+        ucznia i sali oraz dyżury nauczycieli, także bez dostępu do internetu.</p>
+
+    <h2>2. Kto odpowiada za aplikację</h2>
+    <p>Autorem i wydawcą aplikacji jest <mark>Karol Smolak</mark>.
+        W sprawach dotyczących prywatności można pisać na adres: <mark>karol_smolak@wp.pl</mark>.</p>
+
+    <h2>3. Jakich danych o Tobie aplikacja nie zbiera</h2>
+    <p>Aplikacja nie wymaga rejestracji ani logowania i nie prosi o podanie żadnych danych osobowych.
+        W szczególności:</p>
+    <ul>
+        <li>nie zbiera imienia, nazwiska, adresu e-mail ani numeru telefonu,</li>
+        <li>nie korzysta z lokalizacji, aparatu, mikrofonu, kontaktów, kalendarza ani plików na urządzeniu,</li>
+        <li>nie zawiera reklam, narzędzi analitycznych ani mechanizmów śledzących,</li>
+        <li>nie wysyła na żaden serwer informacji o tym, czyj plan przeglądasz ani jak korzystasz z aplikacji.</li>
+    </ul>
+
+    <h2>4. Co aplikacja zapisuje na urządzeniu</h2>
+    <p>Poniższe dane są przechowywane wyłącznie w pamięci Twojego urządzenia, w prywatnym obszarze aplikacji.
+        Autor aplikacji nie ma do nich dostępu.</p>
+    <table>
+        <tr>
+            <th>Co</th>
+            <th>Po co</th>
+        </tr>
+        <tr>
+            <td>Pobrane wersje planu lekcji i listy dyżurów (obecna i archiwalne)</td>
+            <td>Wyświetlanie planu bez internetu i przeglądanie wcześniejszych wersji</td>
+        </tr>
+        <tr>
+            <td>Ostatni wybór: tryb oraz wskazany nauczyciel, klasa lub sala; widok dnia lub tygodnia;
+                wybrana wersja planu</td>
+            <td>Otwarcie aplikacji i widżetu na tym samym planie co poprzednio</td>
+        </tr>
+        <tr>
+            <td>Ustawienia: adres źródła planu i częstotliwość odświeżania</td>
+            <td>Pobieranie planu z właściwego adresu w wybranym rytmie</td>
+        </tr>
+        <tr>
+            <td>Losowa liczba ustalana przy pierwszym uruchomieniu</td>
+            <td>Rozłożenie odświeżania w czasie, żeby urządzenia nie pobierały planu jednocześnie.
+                Liczba nie opuszcza urządzenia i nie służy do identyfikacji</td>
+        </tr>
+    </table>
+    <p>Plan lekcji i lista dyżurów zawierają dane opublikowane przez szkołę: imiona i nazwiska nauczycieli,
+        nazwy klas, sal i przedmiotów. Aplikacja jedynie je wyświetla; nie łączy ich z informacjami
+        o użytkowniku.</p>
+
+    <h2>5. Połączenia z internetem</h2>
+    <p>Aplikacja łączy się z internetem tylko po to, żeby pobrać plik z planem lekcji i plik z listą dyżurów
+        spod adresu źródła ustawionego w aplikacji (domyślnie
+        <code>https://karolsmolak.github.io/plan/</code>). Dzieje się to przy pierwszym uruchomieniu,
+        przy ręcznym odświeżeniu oraz okresowo w tle, zgodnie z ustawioną częstotliwością.</p>
+    <p>Przy takim pobraniu serwer, na którym leżą pliki, otrzymuje to samo, co przy otwarciu strony
+        w przeglądarce: adres IP urządzenia oraz podstawowe informacje techniczne o połączeniu.
+        Aplikacja nie dołącza do żądania żadnych danych użytkownika. Domyślne źródło działa w usłudze
+        GitHub Pages; sposób postępowania z danymi połączeń opisuje
+        <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">polityka prywatności GitHub</a>.
+        Jeżeli w ustawieniach zostanie wpisany inny adres, pliki są pobierane z serwera wskazanego
+        przez użytkownika.</p>
+
+    <h2>6. Kopia zapasowa systemu Android</h2>
+    <p>Jeżeli na urządzeniu włączona jest kopia zapasowa Google albo przenoszenie danych na nowe urządzenie,
+        system Android może objąć nią dane aplikacji opisane w punkcie 4. Kopia trafia wtedy na konto Google
+        użytkownika i podlega zasadom Google. Aplikacja sama nie wysyła tych danych nigdzie indziej.</p>
+
+    <h2>7. Uprawnienia</h2>
+    <ul>
+        <li><strong>Dostęp do internetu i informacja o stanie sieci</strong> – pobieranie planu i dyżurów
+            oraz wstrzymanie odświeżania, gdy nie ma połączenia.</li>
+        <li><strong>Dokładne alarmy</strong> – odświeżenie widżetu „Obecna lekcja” równo z dzwonkiem.</li>
+        <li><strong>Uruchamianie po starcie urządzenia i praca w tle</strong> – przywrócenie okresowego
+            odświeżania planu po ponownym uruchomieniu telefonu.</li>
+    </ul>
+    <p>Aplikacja nie prosi o żadne uprawnienia wymagające zgody użytkownika w trakcie działania.</p>
+
+    <h2>8. Udostępnianie danych</h2>
+    <p>Aplikacja nie przekazuje danych użytkownika autorowi ani żadnym innym podmiotom, nie sprzedaje ich
+        i nie wykorzystuje do profilowania ani reklam.</p>
+
+    <h2>9. Dzieci</h2>
+    <p>Z aplikacji mogą korzystać uczniowie. Ponieważ aplikacja nie zbiera danych osobowych użytkowników,
+        nie zbiera ich również od dzieci.</p>
+
+    <h2>10. Usuwanie danych</h2>
+    <p>Wszystkie dane aplikacji można usunąć w ustawieniach systemu (Aplikacje → Plan lekcji → Pamięć →
+        Wyczyść dane) albo odinstalowując aplikację. Autor nie przechowuje żadnych danych użytkowników,
+        więc nie ma nic do usunięcia po jego stronie.</p>
+
+    <h2>11. Zmiany polityki</h2>
+    <p>Jeżeli sposób działania aplikacji się zmieni, ten dokument zostanie zaktualizowany, a u góry pojawi się
+        nowa data obowiązywania.</p>
+
+    <footer>
+        Kontakt: <mark>karol_smolak@wp.pl</mark>
+    </footer>
+</main>
+</body>
+</html>
